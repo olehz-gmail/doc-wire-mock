@@ -1,0 +1,16 @@
+{
+  "filters": {
+    "category": "{{request.query.category}}",
+    "available": "{{request.query.available}}"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "category": "{{request.query.category}}",
+      "price": 12.5,
+      "currency": "USD",
+      "available": {{request.query.available}}
+    }
+  ]
+}

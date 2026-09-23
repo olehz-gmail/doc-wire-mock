@@ -1,0 +1,14 @@
+{
+  "name": "get-menu-list",
+  "request": {
+    "method": "GET",
+    "url": "/api/menu"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "menu-list.json"
+  }
+}

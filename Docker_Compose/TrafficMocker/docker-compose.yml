@@ -1,0 +1,13 @@
+services:
+  wiremock:
+    image: wiremock/wiremock:3.9.1
+    restart: always
+    container_name: restaurant_menu
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./wm_data/mappings:/home/wiremock/mappings
+      - ./wm_data/__files:/home/wiremock/__files
+    command:
+      - "--global-response-templating"
+      - "--verbose"

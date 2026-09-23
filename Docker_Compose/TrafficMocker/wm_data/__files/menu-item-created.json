@@ -1,0 +1,9 @@
+{
+  "id": 5,
+  "name": "{{jsonPath request.body '$.name'}}",
+  "category": "{{jsonPath request.body '$.category'}}",
+  "price": {{jsonPath request.body '$.price'}},
+  "currency": "{{jsonPath request.body '$.currency'}}",
+  "available": true,
+  "message": "Menu item created successfully"
+}

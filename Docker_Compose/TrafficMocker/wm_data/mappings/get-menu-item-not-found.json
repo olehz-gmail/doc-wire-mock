@@ -1,0 +1,15 @@
+{
+  "name": "get-menu-item-not-found",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/menu/[0-9]*404"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "error-not-found.json"
+  }
+}

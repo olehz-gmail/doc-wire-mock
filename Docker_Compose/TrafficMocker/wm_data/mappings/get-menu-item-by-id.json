@@ -1,0 +1,15 @@
+{
+  "name": "get-menu-item-by-id",
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/menu/[0-9]+"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "menu-item-1.json"
+  }
+}

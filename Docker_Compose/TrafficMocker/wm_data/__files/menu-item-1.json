@@ -1,0 +1,10 @@
+{
+  "id": "{{request.path.[2]}}",
+  "name": "Margherita Pizza",
+  "category": "mains",
+  "price": 12.5,
+  "currency": "USD",
+  "available": true,
+  "description": "Classic pizza with tomato, mozzarella, and basil.",
+  "allergens": ["gluten", "dairy"]
+}

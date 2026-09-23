@@ -1,0 +1,14 @@
+{
+  "name": "get-menu-categories",
+  "request": {
+    "method": "GET",
+    "url": "/api/menu/categories"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "menu-categories.json"
+  }
+}

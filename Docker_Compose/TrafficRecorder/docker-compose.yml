@@ -1,0 +1,12 @@
+services:
+  wiremock:
+    container_name: traffic_recorder
+    image: wiremock/wiremock:3.9.1
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./wm_recordings:/home/wiremock
+    command:
+      - --proxy-all=https://api.example.com
+      - --record-mappings
+      - --verbose

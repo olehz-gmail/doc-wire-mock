@@ -1,0 +1,23 @@
+{
+  "name": "get-menu-filtered",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/menu",
+    "queryParameters": {
+      "category": {
+        "matches": "(:?mains|drinks|desserts)"
+      },
+      "available": {
+        "matches": "true|false"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "menu-filtered.json"
+  }
+}

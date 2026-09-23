@@ -1,0 +1,37 @@
+{
+  "restaurant": "restaurant_menu",
+  "items": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "category": "mains",
+      "price": 12.5,
+      "currency": "USD",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Caesar Salad",
+      "category": "appetizers",
+      "price": 8.0,
+      "currency": "USD",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Tiramisu",
+      "category": "desserts",
+      "price": 6.5,
+      "currency": "USD",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Sparkling Water",
+      "category": "drinks",
+      "price": 3.0,
+      "currency": "USD",
+      "available": true
+    }
+  ]
+}

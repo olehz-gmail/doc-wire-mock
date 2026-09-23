@@ -1,0 +1,5 @@
+{
+  "error": "Not Found",
+  "status": 404,
+  "message": "Dish with ID {{request.path.[2]}} is not found"
+}

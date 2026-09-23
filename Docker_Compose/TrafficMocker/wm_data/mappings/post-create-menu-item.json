@@ -1,0 +1,25 @@
+{
+  "name": "post-create-menu-item",
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/menu",
+    "headers": {
+      "Content-Type": {
+        "contains": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.name" },
+      { "matchesJsonPath": "$.category" },
+      { "matchesJsonPath": "$.price" },
+      { "matchesJsonPath": "$.currency" }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "menu-item-created.json"
+  }
+}
